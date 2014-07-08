@@ -1,0 +1,23 @@
+.ribbon{
+	height:45px;background-color:$blue-lightest;
+	.logo{
+		border-radius:50%;width:60px;height:60px;background-color:$blue-light;
+		img{padding:18px 0 0 24px;}
+	}
+}
+.mainNav{
+	padding:10px 0;display:inline-block;text-align:right;
+	a{
+		margin:0 12px 0 0;text-decoration:none;text-transform:capitalize;
+		font-size:$h5-size;line-height:$h5-height;color:$gray-light;
+	}
+	#home{
+		&:hover{border-bottom:3px solid $blue-light;}
+	}
+	#work{
+		&:hover{border-bottom:3px solid $blue-lighter;}
+	}
+	#about{
+		&:hover{border-bottom:3px solid $blue-lightest;}
+	}
+}

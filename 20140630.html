@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Circular Navigation</title>
+	<link rel="stylesheet" href="stylesheets/screen2.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body id="article">
+	<div class="ribbon">
+		<div class="centerWrap">
+			<div class="logo"><img src="img/t-logoL.png" width="27" height="42" alt="T LogoL"></div>
+		</div>
+	</div>
+	<div class="mainNav centerWrap">
+		<a id="work" href="index.html">articles & work</a>
+		<a id="about" href="about.html">about</a>
+	</div>
+	
+<section class="post">
+	<div class="articleHead" style="background-image:url('img/articles/20140630/header-1200.png')">
+		<div class="headContent centerWrap">
+			<h1>Circular Navigation</h1>
+			<h4>Recommendations on Handheld PDPs</h4>
+		</div>
+	</div>
+	<div class="articleByLine centerWrap">
+		<p class="mouse">Tom Murphy June 30, 2014</p>
+	</div>
+	<div class="articleBody centerWrap">
+		<p>The initial launch of our handheld site omitted several elements from the Product Detail Page (PDP) due to time constraints. A recommended product widget was one element - something that at the time which seemed like a low risk choice, but in hindsight had a huge impact on user behavior and site metrics.</p>
+		<div class="chart">
+			<span class="chartRight">
+				<iframe height=257 width=417 src="//docs.google.com/a/turphdesigns.com/spreadsheets/d/1LFF7sKFvF_lD85u2ZNUgyz0yO042r1JuksVrdsjhLUQ/gviz/chartiframe?oid=556124648" seamless frameborder=0 scrolling=no></iframe>
+			</span>
+		</div>
+		<p>Product detail pages are extremely commerce focused and if the visitor does not like the displayed product their only option is to initiate a search or browse path from the main navigation (or exit). Our hypothesis was that introducing a recommended product widget would allow users to continue browsing with a simple one-click interaction without main navigation engagement. This circular navigation would allow the visitor stay within a similar product area of the catalog.</p>
+		<p>In user testing and site usage metrics we see much less engagement with search and browse elements on handheld sites. This is expected behavior as searching is difficult due to limitations of data entry, while browsing is challenging due to cumbersome navigation via multi level panels caused by catalog taxonomy issues.</p>
+
+		<h3>Recommendation widget strategy and layout</h3>
+		<h5>MVP - People Also Viewed & stacked product results</h5>
+		<p>Choosing to run a single <b>Rich Relevance strategy of Customers Also Viewed</b> gave us an opportunity not only display the most successful desktop strategy, but also removed variability due to strategy bias. For our most highly trafficked Product Detail pages we have found that this strategy consistently displayed relevant product results.</p>
+		<p>The widget display is a simplistic layout, having <b>4 products stacked vertically</b>. This layout removed any complex sliding or touch gestures, but did have issues of smaller product images and pushing other page elements further outside the viewport. Regardless, for the sake of testing, simplicity of implementation was paramount.</p>
+
+		<h3>A/B test with widget added to page</h3>
+		<h5>Widget Engagement</h5>
+		<p>The A/B test ran for 3 weeks and widget CTR was 8.23% compared to ~5% CTR for recommendation widgets on desktop. These numbers were encouraging for overall visitor engagement of the widget.</p>
+		
+		<h5>Page Navigation Usage</h5>
+		<p>In order to understand if widget clicks were additional or if visitors were decreasing clicks on other elements, we tracked broad usage of main navigational elements; Menu, Home & Search.</p>
+		<div class="chart">
+			<span class="chartFullWidth">
+				<iframe height=269 width=580 src="//docs.google.com/a/turphdesigns.com/spreadsheets/d/1LFF7sKFvF_lD85u2ZNUgyz0yO042r1JuksVrdsjhLUQ/gviz/chartiframe?oid=1236994052" seamless frameborder=0 scrolling=no></iframe>
+			</span>
+		</div>
+
+
+
+********		
+		<h5>Scroll data</h5>
+		<p>I mentioned earlier that visitors do not scroll on Product Detail pages. While nothing is an absolute of course, this heat map illustrates just how powerful the Above the Fold area is. Also, another metric that can be taken from this visualization is the height of the viewable space. In the original page, while the variant selector is in the majority view, important elements like the thumbnail carousel and add to cart button is starting to be very close to being out of the hottest view area. Shorter is better. <a href="http://backcountryturph.s3.amazonaws.com/r-BackC/BC.14.0156%20crazyEgg_Archive/detailPage/Desktop/BC%20Detail%20Page,%203-24-2014/Scrollmap%20BC%20Detail%20Page,%203-24-2014.jpg" target="_blank">View the heat map</a>.</p>
+	</div>
+</section>
+
+</body>
+</html>
