@@ -28,15 +28,32 @@
 	</div>
 	<div class="articleBody centerWrap">
 		<p>The second evolution of the ProductAds program was to empower merchants to not only rely on Amazon algorithms to display their product ads, but to create custom campaigns controlling which products could be shown, at what times and where. While this program was mainly intended for merchants looking to run advertisements off Amazon (considered syndication), the merchants would use this tool to also set up their traditional on Amazon product advertising.</p>
-		<p>The work below details some of the problem definition, consideration, wireframe and prototyping that went into shaping the application. While the majority of this work was directional in nature and meant to inform internal discussions so of the tool's features were eventually incorporated into SellerCentral.</p>
+		<p>The work below details some of the problem definition, consideration, wireframe and prototyping that went into shaping the application. The majority of my work was directional in nature - meant to inform internal discussions of the program and ultimately a Campaign Manager application incorporated into SellerCentral.</p>
 		<h4>Problem</h4>
 		<p>As ProductAds matured, so did merchant's advertising strategies. Merchants desired much more control over how advertising budgets were spent, and this required a complete shift in how the program worked. ProductAds needed to mature from merchants uploading a product feed into the Amazon catalog and relinquished all control over to Amazon targeting systems. Merchants desired a system similar to Google AdWords and Microsoft adCenter, one where they could create and manage complex advertising campaigns handling their spend and reach.</p>
 		<h4>Solution</h4>
-		<p>Campaign Manager was the tool which would be accessed from a merchant's SellerCentral account and would handle all aspects of creating and managing the various ProductAds programs; On Amazon as well as Off Amazon. The tool was able to walk a user through a stepped approach to define all the various parameters required to make a campaign.</p>
+		<p>Campaign Manager was the tool which would be accessed from a merchant's SellerCentral account and would handle all aspects of creating and managing the various ProductAds programs; On Amazon as well as Off Amazon. The primary use case was to supply a workflow capable of a stepped approach to supply required parameters to create any type of advertising campaign campaign.</p>
 
-***********		
-		<h3>Last row</h3>
-		<p>Placing the widget slot above pagination at the lost row of results accomplished several goals. Placement gave validity to the results and removed the perception that the widget was simply another ad unit. Also in the natural flow of the visitor, they have scanned down the entire results set and only then would they see alternative options.</p>
+		<h3>What's the end product?</h3>
+		<p>This program has two masters; the merchant who wants as much control as possible in displaying their products and Amazon who wants to maximize clicks happening within the ad units. We realized from the start that while it may seem these are equal goals, there were differences. As a group we were having issues talking to each other about these differences so it was important to step back and understand what we thought the various ad units and placements where that constituted an advertising campaign.</p>
+		<p>This <a target="_blank" title="Full size PDF" href="img/articles/20120209/adTypes.pdf">simple sketch</a> of different widget types helped direct the conversation.</p>
+		<div class="chart">
+			<span class="chartFullWidth"><img src="img/articles/20120209/adTypes.png" alt="AdTypes"></span>
+		</div>
+		
+		<h5>Vernacular of the ad unit</h5>
+		<p>Once we had a clearer understanding of ad units we were trying to produce, we begin slicing them to understand what data the merchants needed to supply and our systems required to assemble the final product. Since we were operating in a space dominated by Google AdWords, and all our merchants participated in this program, we needed to mimic as much vocabulary to insure ease of use. This common language was important not only for UI labeling to decrease learning curves, but also so that merchants could easily alter data feeds.</p>
+		<p>While there are differences in how the two programs work, there is almost a complete overlap of elements required to construct an ad unit. Again, a simple diagram of how we anticipated ad unit slicing, element naming conventions and overall structure helped shape discussions.</p>
+		<div class="chart">
+			<span class="chartFullWidth"><img src="img/articles/20120209/vernacular.png" alt="Ad Unit Construction"></span>
+		</div>
+
+		<h5>Chosen direction</h5>
+		<p>After some A/B testing rounds between 3 variants, the metrics supported choosing a simple light gray wrapper. The treatment was enough to set the results apart from the organic flow but not interrupt the overall shopping experience. Engagement was within accepted values based on other placements so the program continued to display the widget.</p>
+		
+		***********		
+		
+		<p>We did not have a clear understanding of the ad units we wanted to display were. Since there</p>
 		<p>From a design perspective, the goal was to balance the need for separation and identification against the desire to feel associated with the site and not simply appended.</p>
 		
 		<h5>Chosen direction</h5>
