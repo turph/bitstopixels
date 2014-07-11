@@ -1,4 +1,4 @@
-/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -156,19 +156,29 @@ blockquote {
   width: 60px;
   height: 60px;
   background-color: #7aa2c7;
+  float: left;
+  -moz-box-shadow: 0px 5px 5px -1px silver;
+  -webkit-box-shadow: 0px 5px 5px -1px silver;
+  box-shadow: 0px 5px 5px -1px silver;
 }
-/* line 5, ../sass/_header.scss */
-.ribbon .logo img {
+/* line 9, ../sass/_header.scss */
+.ribbon img {
   padding: 18px 0 0 24px;
 }
+/* line 10, ../sass/_header.scss */
+.ribbon .mast {
+  display: inline-block;
+  padding: 20px 0 0 10px;
+  color: white;
+}
 
-/* line 8, ../sass/_header.scss */
+/* line 12, ../sass/_header.scss */
 .mainNav {
   padding: 10px 0;
   display: inline-block;
   text-align: right;
 }
-/* line 10, ../sass/_header.scss */
+/* line 14, ../sass/_header.scss */
 .mainNav a {
   margin: 0 12px 0 0;
   text-decoration: none;
@@ -177,15 +187,15 @@ blockquote {
   line-height: 1.45;
   color: #8c8c8c;
 }
-/* line 15, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 .mainNav #home:hover {
   border-bottom: 3px solid #7aa2c7;
 }
-/* line 18, ../sass/_header.scss */
+/* line 22, ../sass/_header.scss */
 .mainNav #work:hover {
   border-bottom: 3px solid #9ebbd6;
 }
-/* line 21, ../sass/_header.scss */
+/* line 25, ../sass/_header.scss */
 .mainNav #about:hover {
   border-bottom: 3px solid #c2d4e5;
 }
