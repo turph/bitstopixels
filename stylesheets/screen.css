@@ -167,7 +167,7 @@ a {
 
 /* line 6, ../sass/_layout.scss */
 #article .post {
-  padding: 0;
+  padding: 260px 0 0 0;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -236,16 +236,6 @@ a {
   margin: 20px 0;
   width: 100%;
   text-align: center;
-}
-
-/* line 32, ../sass/_layout.scss */
-#about .aboutBody {
-  padding: 20px 10px 100px 10px;
-  color: #404040;
-}
-/* line 34, ../sass/_layout.scss */
-#about .aboutBody h4 {
-  font-weight: bold;
 }
 
 /* line 1, ../sass/_articleHead.scss */
