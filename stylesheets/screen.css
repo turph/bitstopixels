@@ -238,6 +238,17 @@ a {
   text-align: center;
 }
 
+/* line 32, ../sass/_layout.scss */
+#about .aboutBody {
+  margin: 0 10px;
+  padding: 20px 10px 100px 10px;
+  color: #404040;
+}
+/* line 34, ../sass/_layout.scss */
+#about .aboutBody h4 {
+  font-weight: bold;
+}
+
 /* line 1, ../sass/_articleHead.scss */
 body {
   font-family: 'Lato', sans-serif;

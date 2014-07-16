@@ -28,4 +28,9 @@ a{color:$blue;}
 	}
 }
 
-
+#about{
+	.aboutBody{
+		margin:0 10px;padding:20px 10px 100px 10px;color:$black;
+		h4{font-weight:bold;}		
+	}
+}
