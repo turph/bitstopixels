@@ -3,7 +3,7 @@ a{color:$blue;}
 .wrapper{@include center-block;max-width:$page-width;background-color:$white;}
 
 #article{
-	.post{padding:260px 0 0 0;background-size:100%;background-repeat:no-repeat;}
+	.post{padding:0;background-size:100%;background-repeat:no-repeat;}
 	.articleHeadline{
 		@include center-block;max-width:$page-width;
 		padding:0 0 60px 0;
@@ -25,6 +25,13 @@ a{color:$blue;}
 			display:inline-block;width:100%;text-align:center;
 			img{margin:20px 0;width:100%;text-align:center;}
 		}
+	}
+}
+
+#about{
+	.aboutBody {
+		padding:20px 10px 100px 10px;color:$black;
+		h4{font-weight:bold;}		
 	}
 }
 
