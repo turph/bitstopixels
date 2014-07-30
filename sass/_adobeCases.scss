@@ -1,0 +1,31 @@
+html, body{height:100%;}
+.header{
+	height:30px;width:100%;
+	background-color:$blue-lightest;
+	@include drop-shadow;
+	position:fixed;
+	.navIcon{margin:5px 10px;}
+}
+.wrapper{float:left;}
+#panel {
+	margin:50px 20px 0 10px;
+	border-right:1px solid $gray-lightest;
+	background-color:$gray-backer;
+	float:left;
+	width:250px;
+	height:100%;
+	display:block;
+	overflow:hidden;
+	a{
+		display:block;text-decoration:none;line-height:24px;color:$gray-light;
+		&:last-child{}
+		&:nth-last-child(2){border-top:1px solid $gray-lightest;margin:12px 0 0 0;width:80%;}
+		&:hover{text-decoration:underline;color:$blue-light;}
+	}
+}
+.useCase{
+	margin:40px 0 0 0;
+	padding:0 20px 0 0;
+	height:100%;
+	overflow:hidden;
+}
