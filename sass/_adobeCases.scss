@@ -1,31 +1,41 @@
-html, body{height:100%;}
+body{font-family: 'Lato', sans-serif;}
+html, body{height:auto;}
 .header{
 	height:30px;width:100%;
-	background-color:$blue-lightest;
+	background-color:$white;
 	@include drop-shadow;
 	position:fixed;
-	.navIcon{margin:5px 10px;}
+	.navIcon{margin:5px 10px;color:$gray-light;font-size:14px;}
 }
 .wrapper{float:left;}
-#panel {
+#panel-wrap{
+	float:left;
 	margin:50px 20px 0 10px;
+	width:250px;
+}
+#panel {
+	font-size:12px;
 	border-right:1px solid $gray-lightest;
 	background-color:$gray-backer;
 	float:left;
 	width:250px;
-	height:100%;
 	display:block;
 	overflow:hidden;
+	p{margin:8px 0 0 0;}
 	a{
-		display:block;text-decoration:none;line-height:24px;color:$gray-light;
-		&:last-child{}
-		&:nth-last-child(2){border-top:1px solid $gray-lightest;margin:12px 0 0 0;width:80%;}
+		display:block;text-decoration:none;line-height:20px;color:$gray-light;
+		&:last-child{border-top:1px solid $gray-lightest;margin:12px 0 0 0;width:80%;}
 		&:hover{text-decoration:underline;color:$blue-light;}
 	}
 }
 .useCase{
 	margin:40px 0 0 0;
 	padding:0 20px 0 0;
-	height:100%;
 	overflow:hidden;
+	h3, h4, h5{font-weight:normal;}
+	h3{text-transform:capitalize;color:$blue-light;padding:20px 0 0 0;}
+	img{display:block;margin-left:auto;margin-right:auto;}
+	.caption{margin:18px 0 0 0;text-align:center;font-style:italic;font-size:12px;color:$gray-lighter;line-height:16px;}
+	ul{margin:0 20px;}
+	li{line-height:24px;list-style-type:disc;}
 }
