@@ -1,0 +1,41 @@
+.homeHero{
+	height:345px;position:relative;background-size:cover;background-repeat:no-repeat;
+	background-image:url('../img/homeHero/rainier3.jpg');
+	.title{
+		@include center-block;max-width:$page-width;
+		padding:220px 10px 0 0;text-align:right;
+		h3, p{color:$white;}
+	}
+	.heroRibbon{
+		width:100%;position:absolute;bottom:0;height:60px;
+		background: rgba(100, 100, 100, .8);bottom:0;
+		.heroFooter{
+			@include center-block;max-width:$page-width;
+		}
+	}
+}
+.homeGrid{
+	margin:20px 0;width:980px;
+	a{margin:0;padding:0;}
+	.homeTile{
+		background:no-repeat;
+		@include round-corners;
+		width:304px;height:195px;margin:0 20px 20px 0;float:left;padding:203px 0 0 0;
+		border:1px solid $gray-lighter;
+		background-color:$cream;
+		&:nth-child(3n+3){margin-right:0;}
+		h3, h5, ul, p{padding:0 12px;}
+		p{padding-top:6px;}
+		ul.projectAttributes{
+			li{
+				display:inline;color:$gray-light;padding:0 6px;border-right:1px solid $gray-lightest;
+			&:first-child{padding-left:0px;}
+			&:last-child{border-right:none;}
+			}
+		}
+		&:hover{
+			@include drop-shadow;
+			h3{color:$blue-light;text-decoration:underline;}
+		}
+	}
+}

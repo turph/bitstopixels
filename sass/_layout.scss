@@ -1,6 +1,6 @@
 body{font-family: 'Lato', sans-serif;background-color:$gray-backer;}
 a{color:$blue;}
-.wrapper{@include center-block;max-width:$page-width;background-color:$white;}
+.center{@include center-block;max-width:$page-width;background-color:$white;}
 
 #article{
 	.post{padding:260px 0 0 0;background-size:100%;background-repeat:no-repeat;}
