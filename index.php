@@ -28,7 +28,7 @@
 				<li>Post</li>
 				<li>turphdesigns</li>
 			</ul>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</p>
+			<p class="psmall">Noticed this masthead kerning and now it is taunting me.</p>
 		</div>
 		</a>
 		<a href="articles/20140701.php">
@@ -40,7 +40,7 @@
 				<li>Post</li>
 				<li>turphdesigns</li>
 			</ul>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</p>
+			<p class="psmall">If you are looking for answers to your complex experience questions on Dribble, you are not doing your job.</p>
 		</div>
 		</a>
 		<a href="articles/20140630.php">
@@ -52,7 +52,7 @@
 				<li>Article</li>
 				<li>Backcountry</li>
 			</ul>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</p>
+			<p class="psmall">Product detail pages are extremely commerce focused and if the visitor does not like the displayed product their only option is to initiate a search or browse path from the main navigation (or exit).</p>
 		</div>
 		</a>
 		<a href="articles/20140109.php">
@@ -64,7 +64,7 @@
 				<li>Article</li>
 				<li>Backcountry</li>
 			</ul>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</p>
+			<p class="psmall">Typically, greater than 60% of first page views on an e-commerce site are a Product Detail page.</p>
 		</div>
 		</a>
 		<a href="articles/20120209.php">
@@ -76,7 +76,7 @@
 				<li>Article</li>
 				<li>Amazon</li>
 			</ul>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</p>
+			<p class="psmall">As ProductAds matured, so did merchant's advertising strategies. Merchants desired much more control over how advertising budgets were spent.</p>
 		</div>
 		</a>
 		<a href="articles/20110624.php">
@@ -88,7 +88,7 @@
 				<li>Article</li>
 				<li>Amazon</li>
 			</ul>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</p>
+			<p class="psmall">Placing the widget slot above pagination at the lost row of results accomplished several goals.</p>
 		</div>
 		</a>
 	</div>

@@ -26,7 +26,9 @@
 		&:nth-child(3n+3){margin-right:0;}
 		h3, h5, ul, p{padding:0 12px;}
 		p{padding-top:6px;}
+		.psmall{line-height:18px;color:$gray-light;font-weight:100;}
 		ul.projectAttributes{
+			padding-top:2px;
 			li{
 				display:inline;color:$gray-light;padding:0 6px;border-right:1px solid $gray-lightest;
 			&:first-child{padding-left:0px;}
