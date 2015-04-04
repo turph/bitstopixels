@@ -24,21 +24,35 @@
 </section>
 
 <div id="trackers">
-<!-- ptengine -->
-<script type="text/javascript">
-  window._pt_lt = new Date().getTime();
-  window._pt_sp_2 = [];
-  _pt_sp_2.push('setAccount,579c106b');
-  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-  (function() {
-	var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
-	atag.src = _protocol + 'js.ptengine.com/pta.js';
-	var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
-	stag.src = _protocol + 'js.ptengine.com/pts.js';
-	var s = document.getElementsByTagName('script')[0]; 
-	s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
-  })();
-</script>
+	<!-- ptengine:Begin -->
+	<script type="text/javascript">
+	  window._pt_lt = new Date().getTime();
+	  window._pt_sp_2 = [];
+	  _pt_sp_2.push('setAccount,579c106b');
+	  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	  (function() {
+		var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+		atag.src = _protocol + 'js.ptengine.com/pta.js';
+		var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+		stag.src = _protocol + 'js.ptengine.com/pts.js';
+		var s = document.getElementsByTagName('script')[0]; 
+		s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
+	  })();
+	</script>
+	<!--  MouseStats:Begin  -->
+	<script type="text/javascript">
+	var MouseStats_Commands = MouseStats_Commands ? MouseStats_Commands : [];
+	(function () {
+	if(document.getElementById('MouseStatsTrackingScript') == undefined) {
+	    var mousestats_script = document.createElement('script');
+	    mousestats_script.type = 'text/javascript';
+	    mousestats_script.id = 'MouseStatsTrackingScript';
+	    mousestats_script.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www2') + '.mousestats.com/js/5/1/5165462358813140320.js?' + Math.floor(new Date().getTime()/600000);
+	    mousestats_script.async = true;
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(mousestats_script);
+	} })();
+	</script>
+	</div>
 </div>
 </body>
 </html>
