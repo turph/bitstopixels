@@ -436,6 +436,8 @@ a {
       background-size: cover; }
     .portfolio .tiles li .type {
       text-align: right; }
+    .portfolio .tiles li a {
+      text-decoration: none; }
     .portfolio .tiles li h4 {
       font-size: 13px;
       margin: 3px 0 0 8%; }
