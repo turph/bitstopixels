@@ -1,12 +1,11 @@
 .portfolio{
-	background-color:$green;
 	.tiles{
 		li{
 			position:relative;width:30.555555555556%;float:left;padding:0;margin:0 4.166666666667% 30px 0;
 			&:nth-child(3n){margin-right:0;}
 			.tile, .thumbnail{@include round-corners;border:1px solid $gray-lightest;}
 			.tile{
-				background-color:$white;padding:8%;
+				background-color:$white;padding:8%;position:relative;
 				clear:left;
 				&:hover{@include drop-shadow};
 			}
