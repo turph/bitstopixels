@@ -1,0 +1,23 @@
+Component Design
+Index Section: Outside my bubble
+Index Section: What i do
+Header
+Footer
+
+Template Design
+Landing Page: Portfolio
+Landing Page: Article
+Landing Page: Bubble
+Landing Page: About
+
+Template Design:
+Detail Page: Portfolio
+Detail Page: Article
+
+
+******************************************
+
+Outside my bubble
+The index page tiles need to convey that I am more interested in the person, what we spoke about and then what they do. Maybe for the tile the job title is not even necessary but that is what we see on the landing page. 
+
+For the landing page, these things are snippets so there is no need for a detail page. And there is no need to go overboard with a ton of detail. There should be one key take away - something to highlight the chat and the one element that sparked some sort of inspiration.
