@@ -123,18 +123,38 @@ a {
 .centered h1, .centered h2, .centered h3, .centered p {
   text-align: center; }
 
+.col3, .col4 {
+  float: left; }
+
+.col4 {
+  width: 24.9999%; }
+
+.col3 {
+  width: 32.999%; }
+
 #home section {
   margin: 0 0 40px 0;
   padding: 0 10%; }
 #home h1 {
   padding-top: 20px;
-  line-height: 1.25; }
+  line-height: 1.25;
+  text-transform: capitalize; }
 #home ol {
-  margin-top: 13px; }
+  padding: 13px 0; }
 #home .portfolio, #home .articles {
   background-color: #e9f0f6; }
 #home .content {
   background-color: #fff; }
+
+.skill {
+  padding: 20px 5%;
+  text-align: center; }
+  .skill img {
+    width: 65%; }
+  .skill h4 {
+    text-transform: capitalize; }
+  .skill .psmall {
+    text-align: left; }
 
 .ribbon {
   height: 50px;

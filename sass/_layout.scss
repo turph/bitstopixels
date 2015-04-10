@@ -4,11 +4,21 @@ a{color:$blue;}
 .centered{
 	h1,h2,h3,p{text-align:center;} 
 }
+.col3,.col4{float:left;}
+.col4{width:24.9999%;}
+.col3{width:32.999%;}
 
 #home{
 	section{margin:0 0 40px 0;padding:0 10%;}
-	h1{padding-top:20px;line-height:1.25;}
-	ol{margin-top:13px;}
+	h1{padding-top:20px;line-height:1.25;text-transform:capitalize;}
+	ol{padding:13px 0;}
 	.portfolio,.articles{background-color:$blue-backer;}
 	.content{background-color:$white;}
+}
+
+.skill{
+	padding:20px 5%;text-align:center;
+	img{width:65%;}
+	h4{text-transform:capitalize;}
+	.psmall{text-align:left;}
 }
