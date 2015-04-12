@@ -1,9 +1,10 @@
 .ribbon{
 	height:50px;border-bottom:1px solid $gray-lightest;padding:5px 0;
+	position:fixed;width:100%;background-color:$blue-light;z-index:1;
 	.logo{
 		float:left;
 		img{margin:0 0 0 10px;}
-		.mast{vertical-align:super;padding:0 0 0 6px;color:$gray-lighter;}
+		.mast{vertical-align:super;padding:0 0 0 6px;color:$white;letter-spacing:.75px;}
 		a{text-decoration:none;}
 	}
 	.mainNav{

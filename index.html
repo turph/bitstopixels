@@ -4,6 +4,7 @@
 	<title>turphdesigns</title>
 	<link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,17 +15,52 @@
 	  ga('send', 'pageview');
 
 	</script>
+	<script>
+		// Smooth scrolling
+		$(document).ready(function () {
+		    $('a[href^="#"]').on('click', function (e) {
+		        e.preventDefault();
+
+		        var target = this.hash,
+		            $target = $(target);
+
+		        $('html, body').stop().animate({
+		            'scrollTop': $target.offset().top - 60 // - 60px (nav-height)
+		        }, 900, 'swing', function () {
+		            // Replace this with something that can be easily parsed and used by your code
+		            window.location.hash = '1' + target;
+		        });
+		    });
+		});
+	</script>
 </head>
 <body id="home">
-	<div class="ribbon centerWrap">
-		<div class="logo"><img src="img/t-logoL.png" width="27" height="42" alt="T LogoL"></div>
-		<span class="mast">turphdesigns</span>
-	</div>
+<div class="ribbon">
+	<div class="logo"><a href="#intro"><img src="img/v3-logo.png" alt="turphdesigns logo"><span class="mast">turphdesigns</span></a></div>
 	<div class="mainNav centerWrap">
-		<a id="work" href="index.html">articles & work</a>
-		<a id="about" href="about.html">about</a>
+		<a href="#portfolio">articles & work</a>
+		<a href="#about">about</a>
+		<a href="#useCase">use cases</a>
+		<a href="#bubble">bubble</a>
+	</div>	
+</div>
+<section class="centered content">
+	<div id="intro">
+		<div class="colWide">
+			<h1>Hello</h1>
+			<h2>I'm Tom Murphy</h2>
+			<h3>Senior Experience Designer</h3>
+		</div>
+		<div class="colNarrow">
+			Narrow
+		</div>
 	</div>
-<section class="centered portfolio">
+	<div style="clear:both;"></div>
+</section>
+<section class="portfolio">
+	full bleed image
+</section>
+<section id="portfolio" class="centered portfolio">
 	<h1>Recent Design Work</h1>
 	<h3>A collection of recent design work</h3>
 	<ol class="tiles">
@@ -85,40 +121,42 @@
 	</ol>
 	<div style="clear:both;"></div>
 </section>
-<section class="centered content">
+<section id="about" class="centered content">
 	<h1>What I Do</h1>
-	<h3>Experience and product design</h3>
+	<h3>Designing experiences and products</h3>
+	<div class="col4">
+		<div class="skill">
+			<img src="img/icons/skill-research.jpg" alt="Skill Analytics">
+			<h4>research & testing</h4>
+			<p class="psmall">Every idea, product and feature should be able to withstand user validation. Finding the right time for, and balance of, qualitative and quantitative measurements validates development.</p>
+		</div>
+	</div>
 	<div class="col4">
 		<div class="skill">
 			<img src="img/icons/skill-analytics.jpg" alt="Skill Analytics">
 			<h4>Analytics</h4>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ante nec neque ultrices consequat. Vivamus eget suscipit eros, eu finibus turpis. Maecenas congue rutrum erat id sagittis.</p>
+			<p class="psmall">Running tests and collecting data is great, but if you can not interpret the numbers it is of littel value. Digging through Omniture and creating spreadsheets is the unglamorous work.</p>
 		</div>
 	</div>
 	<div class="col4">
 		<div class="skill">
-			<img src="img/icons/skill-analytics.jpg" alt="Skill Analytics">
-			<h4>research</h4>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ante nec neque ultrices consequat. Vivamus eget suscipit eros, eu finibus turpis. Maecenas congue rutrum erat id sagittis.</p>
-		</div>
-	</div>
-	<div class="col4">
-		<div class="skill">
-			<img src="img/icons/skill-analytics.jpg" alt="Skill Analytics">
+			<img src="img/icons/skill-optimize.jpg" alt="Skill Analytics">
 			<h4>optimization</h4>
 			<p class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ante nec neque ultrices consequat. Vivamus eget suscipit eros, eu finibus turpis. Maecenas congue rutrum erat id sagittis.</p>
 		</div>
 	</div>
 	<div class="col4">
 		<div class="skill">
-			<img src="img/icons/skill-analytics.jpg" alt="Skill Analytics">
+			<img src="img/icons/skill-design.jpg" alt="Skill Analytics">
 			<h4>design</h4>
-			<p class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ante nec neque ultrices consequat. Vivamus eget suscipit eros, eu finibus turpis. Maecenas congue rutrum erat id sagittis.</p>
+			<p class="psmall">The word "design" covers a lot of area these days - from esthetics, branding, patterns to UI. I consider myself a graphic designer, but my skills today are centered around experiences.</p>
 		</div>
 	</div>
-	<div style="clear:both;"></div>	
+	<div style="clear:both;"></div>
+	<h4>Title</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ante nec neque ultrices consequat. Vivamus eget suscipit eros, eu finibus turpis. Maecenas congue rutrum erat id sagittis. Suspendisse tortor metus, laoreet in lacinia sit amet, auctor aliquam dui. Fusce cursus nulla a lectus facilisis, eu eleifend ligula eleifend. Pellentesque tincidunt turpis nec dui mollis volutpat. Donec iaculis nisl nulla, sit amet posuere est luctus vitae. Aenean eleifend convallis ligula, dapibus aliquet orci varius et. Nam ullamcorper mattis sollicitudin. Cras mattis magna ut sapien sodales, non aliquam tellus posuere. Etiam mattis rhoncus tellus a elementum. In lacinia fermentum varius. Donec pharetra quam non sollicitudin euismod. Fusce sollicitudin risus ut tempor ultrices. Sed mattis iaculis tristique.</p>
 </section>
-<section class="centered articles">
+<section id="useCase" class="centered articles">
 	<h1>Use Cases</h1>
 	<h3>Customer problems, data and solutions</h3>
 	<ol class="tiles">
@@ -189,17 +227,11 @@
 	</ol>
 	<div style="clear:both;"></div>
 </section>
-<section class="centered content">
+<section id="bubble" class="centered content">
 	<h1>Outside my bubble</h1>
 	<h3>Lunch chats</h3>
 	<p>I found myself living inside a Backcountry e-commerce bubble far too long.<br>So I made a goal to have at least 2 lunches per month with folks I thought interesting.</p>
 </section>
-
-
-
-
-
-
 
 <div id="trackers">
 	<!-- ptengine:Begin -->

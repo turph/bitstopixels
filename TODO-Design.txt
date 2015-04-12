@@ -26,9 +26,4 @@ Use Cases
 - instasearch
 - exit rates
 - cityPass
-
-What I Do
-- Data analysis
-- Research
-- Optimization
-- Design
+- searchTerms

@@ -94,7 +94,8 @@ h5 {
 p {
   font-size: 16px;
   line-height: 1.4;
-  margin-bottom: 12.25; }
+  margin-bottom: 12.46;
+  font-weight: 300; }
 
 .psmall {
   font-size: 14px;
@@ -123,7 +124,7 @@ a {
 .centered h1, .centered h2, .centered h3, .centered p {
   text-align: center; }
 
-.col3, .col4 {
+.col3, .col4, .colWide, .colNarrow {
   float: left; }
 
 .col4 {
@@ -131,6 +132,48 @@ a {
 
 .col3 {
   width: 32.999%; }
+
+.colWide {
+  width: 68.999%; }
+
+.colNarrow {
+  width: 30.999%; }
+
+.ribbon {
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+  background-color: #7aa2c7;
+  z-index: 1; }
+  .ribbon .logo {
+    float: left; }
+    .ribbon .logo img {
+      margin: 0 0 0 10px; }
+    .ribbon .logo .mast {
+      vertical-align: super;
+      padding: 0 0 0 6px;
+      color: #fff;
+      letter-spacing: .75px; }
+    .ribbon .logo a {
+      text-decoration: none; }
+  .ribbon .mainNav {
+    float: right;
+    margin: -36px 0 0 0; }
+    .ribbon .mainNav a {
+      margin: 0 12px 0 0;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 12.46;
+      line-height: 12.46;
+      color: #dfdfdf; }
+    .ribbon .mainNav #home:hover {
+      border-bottom: 3px solid #7aa2c7; }
+    .ribbon .mainNav #work:hover {
+      border-bottom: 3px solid #9ebbd6; }
+    .ribbon .mainNav #about:hover {
+      border-bottom: 3px solid #c2d4e5; }
 
 #home section {
   margin: 0 0 40px 0;
@@ -146,6 +189,17 @@ a {
 #home .content {
   background-color: #fff; }
 
+#intro {
+  padding: 70px 0 0 0; }
+  #intro h1, #intro h2, #intro h3 {
+    text-align: left; }
+  #intro h3 {
+    line-height: 10.75px; }
+
+#about h4 {
+  text-align: center;
+  margin-top: 12px; }
+
 .skill {
   padding: 20px 5%;
   text-align: center; }
@@ -154,114 +208,9 @@ a {
   .skill h4 {
     text-transform: capitalize; }
   .skill .psmall {
-    text-align: left; }
-
-.ribbon {
-  height: 50px;
-  border-bottom: 1px solid whitesmoke;
-  padding: 5px 0; }
-  .ribbon .logo {
-    float: left; }
-    .ribbon .logo img {
-      margin: 0 0 0 10px; }
-    .ribbon .logo .mast {
-      vertical-align: super;
-      padding: 0 0 0 6px;
-      color: #dfdfdf; }
-    .ribbon .logo a {
-      text-decoration: none; }
-  .ribbon .mainNav {
-    float: right;
-    margin: -36px 0 0 0; }
-    .ribbon .mainNav a {
-      margin: 0 12px 0 0;
-      text-decoration: none;
-      text-transform: capitalize;
-      font-size: 12.25;
-      line-height: 12.25;
-      color: #dfdfdf; }
-    .ribbon .mainNav #home:hover {
-      border-bottom: 3px solid #7aa2c7; }
-    .ribbon .mainNav #work:hover {
-      border-bottom: 3px solid #9ebbd6; }
-    .ribbon .mainNav #about:hover {
-      border-bottom: 3px solid #c2d4e5; }
-
-.homeHero {
-  height: 345px;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../img/homeHero/rainier3.jpg"); }
-  .homeHero .title {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 980px;
-    padding: 220px 10px 0 0;
-    text-align: right; }
-    .homeHero .title h3, .homeHero .title p {
-      color: #fff; }
-  .homeHero .heroRibbon {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    background: rgba(100, 100, 100, 0.8);
-    bottom: 0; }
-    .homeHero .heroRibbon .heroFooter {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 980px; }
-
-.homeGrid {
-  margin: 20px 0;
-  width: 980px; }
-  .homeGrid a {
-    margin: 0;
-    padding: 0; }
-  .homeGrid .homeTile {
-    background: no-repeat;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    width: 304px;
-    height: 195px;
-    margin: 0 20px 20px 0;
-    float: left;
-    padding: 203px 0 0 0;
-    border: 1px solid #dfdfdf;
-    background-color: #FFFFFC; }
-    .homeGrid .homeTile:nth-child(3n+3) {
-      margin-right: 0; }
-    .homeGrid .homeTile h3, .homeGrid .homeTile h5, .homeGrid .homeTile ul, .homeGrid .homeTile p {
-      padding: 0 12px; }
-    .homeGrid .homeTile p {
-      padding-top: 6px; }
-    .homeGrid .homeTile .psmall {
-      line-height: 18px;
-      color: #ababab;
-      font-weight: 100; }
-    .homeGrid .homeTile ul.projectAttributes {
-      padding-top: 2px; }
-      .homeGrid .homeTile ul.projectAttributes li {
-        display: inline;
-        color: #ababab;
-        padding: 0 6px;
-        border-right: 1px solid whitesmoke; }
-        .homeGrid .homeTile ul.projectAttributes li:first-child {
-          padding-left: 0px; }
-        .homeGrid .homeTile ul.projectAttributes li:last-child {
-          border-right: none; }
-    .homeGrid .homeTile:hover {
-      border-bottom: 1px solid #dfdfdf;
-      -moz-box-shadow: 0px 3px 5px 5px rgba(182, 182, 182, 0.3);
-      -webkit-box-shadow: 0px 3px 5px 5px rgba(182, 182, 182, 0.3);
-      box-shadow: 0px 3px 5px 5px rgba(182, 182, 182, 0.3); }
-      .homeGrid .homeTile:hover h3 {
-        color: #7aa2c7;
-        text-decoration: underline; }
+    text-align: left;
+    font-weight: 300;
+    line-height: 16.75px; }
 
 .portfolio .tiles li {
   position: relative;
