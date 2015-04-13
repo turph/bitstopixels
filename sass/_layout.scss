@@ -1,0 +1,11 @@
+body{font-family: 'Lato', sans-serif;background-color:$white;}
+a{color:$blue;}
+
+.centered{
+	h1,h2,h3,p{text-align:center;} 
+}
+.col3,.col4,.colWide,.colNarrow{float:left;}
+.col4{width:24.9999%;}
+.col3{width:32.999%;}
+.colWide{width:68.999%;}
+.colNarrow{width:30.999%;}

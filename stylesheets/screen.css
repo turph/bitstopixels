@@ -195,6 +195,10 @@ a {
     text-align: left; }
   #intro h3 {
     line-height: 10.75px; }
+  #intro p {
+    text-align: right;
+    margin-top: 24px;
+    color: #ababab; }
 
 #about h4 {
   text-align: center;
