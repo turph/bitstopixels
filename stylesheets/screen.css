@@ -178,6 +178,9 @@ a {
 #home section {
   margin: 0 0 40px 0;
   padding: 0 10%; }
+  #home section:nth-child(3) {
+    padding: 0;
+    margin-bottom: 0; }
 #home h1 {
   padding-top: 20px;
   line-height: 1.25;
@@ -215,6 +218,15 @@ a {
     text-align: left;
     font-weight: 300;
     line-height: 16.75px; }
+
+.fullBleed .heroImg {
+  height: 50vh;
+  background-size: cover; }
+  .fullBleed .heroImg h4 {
+    padding: 20px 10%;
+    margin-left: 5%;
+    line-height: 1.55;
+    color: #fff; }
 
 .portfolio .tiles li {
   position: relative;

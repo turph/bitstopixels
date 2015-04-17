@@ -1,5 +1,8 @@
 #home{
-	section{margin:0 0 40px 0;padding:0 10%;}
+	section{
+		margin:0 0 40px 0;padding:0 10%;
+		&:nth-child(3){padding:0;margin-bottom:0;}
+	}
 	h1{padding-top:20px;line-height:1.25;text-transform:capitalize;}
 	ol{padding:13px 0;}
 	.portfolio,.articles{background-color:$blue-backer;}
@@ -19,4 +22,11 @@
 	img{width:65%;}
 	h4{text-transform:capitalize;}
 	.psmall{text-align:left;font-weight:300;line-height:16.75px;}
+}
+.fullBleed{
+	.heroImg{
+		height:50vh;
+		background-size:cover;	
+		h4{padding:20px 10%;margin-left:5%;line-height:1.55;color:$white;}
+	}
 }
