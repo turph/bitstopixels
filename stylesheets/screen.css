@@ -124,7 +124,7 @@ a {
 .centered h1, .centered h2, .centered h3, .centered p {
   text-align: center; }
 
-.col3, .col4, .colWide, .colNarrow {
+.col2, .col3, .col4, .colWide, .colNarrow {
   float: left; }
 
 .col4 {
@@ -132,6 +132,9 @@ a {
 
 .col3 {
   width: 32.999%; }
+
+.col2 {
+  width: 49.999%; }
 
 .colWide {
   width: 68.999%; }
@@ -265,6 +268,34 @@ a {
     font-size: 13px;
     margin: 3px 0 0 8%; }
 
+#bubble .tiles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+  #bubble .tiles li {
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 0 4.166666666667% 30px 0;
+    text-align: center; }
+    #bubble .tiles li .tile {
+      width: 50px;
+      height: 50px;
+      background: #999;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      border: 2px solid whitesmoke;
+      clear: left; }
+    #bubble .tiles li .psmall {
+      display: inline-block;
+      margin: 2px 0 5px 0; }
+
 .articles .tiles li {
   position: relative;
   width: 100%;
@@ -320,6 +351,17 @@ a {
   .articles .tiles li h4 {
     font-size: 13px;
     margin: 3px 0 0 8%; }
+
+.footer {
+  background-color: #7aa2c7; }
+  .footer .end {
+    text-align: center;
+    background-color: #325576;
+    height: 60px; }
+    .footer .end .psmall {
+      line-height: 56px;
+      color: #ababab;
+      font-weight: 300; }
 
 #pattern {
   background-color: #fff; }
