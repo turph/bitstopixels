@@ -27,3 +27,31 @@
 		}
 	}
 }
+#article{
+	.post{
+		padding-top:30px;
+		.articleHead{
+			height:300px;overflow:hidden;
+			background-size:cover;background-repeat:no-repeat;
+			h1, h4{padding-left:10px;background: rgba(255, 255, 255, .8);color:$black;}
+			h1{padding-top:10px;line-height:40px;}
+			h4{padding-bottom:10px;}
+		.headContent{padding:140px 0 0 0;}
+		}
+		.articleByLine{padding:5px 10px 0 10px;color:$gray-light;}
+		.articleBody{
+			padding:0 10px;
+			h3, h4, h5{font-weight:bold;}
+			h3{text-transform:capitalize;color:$blue-light;padding:20px 0 0 0;}
+			h4{line-height:40px;}
+			h5{font-style:italic;}
+		}
+		.chart{
+			.chartRight{float:right;}
+			.chartLeft{float:left;}
+			.chartFullWidth{
+				img{margin:20px 0;width:100%;text-align:center;}
+			}
+		}
+	}
+}
