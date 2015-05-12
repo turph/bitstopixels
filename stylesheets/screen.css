@@ -357,47 +357,48 @@ a {
     font-size: 13px;
     margin: 3px 0 0 8%; }
 
-#article .post {
-  padding-top: 30px; }
-  #article .post .articleHead {
-    height: 300px;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat; }
-    #article .post .articleHead h1, #article .post .articleHead h4 {
-      padding-left: 10px;
-      background: rgba(255, 255, 255, 0.8);
-      color: #5f5f5f; }
-    #article .post .articleHead h1 {
-      padding-top: 10px;
-      line-height: 40px; }
-    #article .post .articleHead h4 {
-      padding-bottom: 10px; }
-    #article .post .articleHead .headContent {
-      padding: 140px 0 0 0; }
-  #article .post .articleByLine {
-    padding: 5px 10px 0 10px;
-    color: #ababab; }
-  #article .post .articleBody {
-    padding: 0 10px; }
-    #article .post .articleBody h3, #article .post .articleBody h4, #article .post .articleBody h5 {
-      font-weight: bold; }
-    #article .post .articleBody h3 {
-      text-transform: capitalize;
-      color: #7aa2c7;
-      padding: 20px 0 0 0; }
-    #article .post .articleBody h4 {
-      line-height: 40px; }
-    #article .post .articleBody h5 {
-      font-style: italic; }
-  #article .post .chart .chartRight {
-    float: right; }
-  #article .post .chart .chartLeft {
-    float: left; }
-  #article .post .chart .chartFullWidth img {
-    margin: 20px 0;
-    width: 100%;
-    text-align: center; }
+#article .articleHead {
+  padding-top: 30px;
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #article .articleHead h1, #article .articleHead h4 {
+    padding-left: 6%;
+    background: rgba(255, 255, 255, 0.9);
+    color: #5f5f5f; }
+  #article .articleHead h1 {
+    padding-top: 10px;
+    line-height: 40px; }
+  #article .articleHead h4 {
+    padding-bottom: 10px; }
+  #article .articleHead .headContent {
+    padding: 140px 0 0 0; }
+#article h1 {
+  padding-top: 20px;
+  line-height: 1.25;
+  text-transform: capitalize; }
+#article .articleBody section {
+  margin: 0;
+  padding: 0 10%; }
+#article .articleBody .articleByLine {
+  padding: 5px 10px 0 0;
+  color: #ababab;
+  display: inline-block; }
+#article .articleBody h4, #article .articleBody h5 {
+  font-weight: bold; }
+#article .articleBody h4 {
+  line-height: 40px; }
+#article .articleBody h5 {
+  font-style: italic; }
+#article .chart .chartRight {
+  float: right; }
+#article .chart .chartLeft {
+  float: left; }
+#article .chart .chartFullWidth img {
+  margin: 20px 0;
+  width: 100%;
+  text-align: center; }
 
 .footer {
   background-color: #7aa2c7;
