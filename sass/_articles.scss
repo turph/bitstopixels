@@ -50,5 +50,8 @@
 			.chartFullWidth{
 				img{margin:20px 0;width:100%;text-align:center;}
 			}
+			.chartRightRail{
+				iframe, object, embed{max-width:100%;}
+			}
 		}
 }

@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>ProductAds in Search</title>
+	<title>Circular Navigation</title>
 	<link rel="stylesheet" href="../stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 	<script>
@@ -26,66 +26,73 @@
 	</div>	
 </div>
 <section class="articleBody">
-	<div class="articleHead" style="background-image:url('../img/articles/20110624/header-1200.png')">
+	<div class="articleHead" style="background-image:url('../img/articles/20140630/header-1200.png')">
 		<div class="headContent centerWrap">
-			<h1>ProductAds in search</h1>
-			<h4>Showing a results widget on search</h4>
+			<h1>Circular Navigation</h1>
+			<h4>Recommendations on Handheld PDPs</h4>
 		</div>
 	</div>
 	<section class="centered">
-		<div class="articleByLine"><p class="mouse">Tom Murphy June 24, 2011</p></div>
-		<h1>Advertisements in search</h1>
-		<h3>External linking without disrupting conversion</h3>
+		<div class="articleByLine"><p class="mouse">Tom Murphy June 30, 2014</p></div>
+		<h1>Product Recommendations</h1>
+		<h3>Handheld devices</h3>
 		<div style="clear:both;"></div>
 	</section>
 	<section>
 		<h3>Problem</h3>
-		<p>Only unique products, marked for advertisement, are eligible to display inline within search results. Given that the vast majority of a merchant's catalog maps to existing products this poses a discovery challenge as their products will be suppressed. Therefore, merchants are willing to pay for greater placement of their relevant products somewhere on search results.</p>
+		<p>The initial launch of our handheld site omitted several elements from the Product Detail Page (PDP). A recommended product widget was one element - something that at the time which seemed like a low risk choice, but in hindsight had a huge impact on user behavior and site metrics.</p>
 		<h3>Solution</h3>
-		<p>Space on search results is extremely limited and user intent is highly focused so injection of sponsored results within a grid of organic search was ruled out as being too obtrusive. As sponsored content, widgets and their results were considered additional content and were not seen as a main focal point. Two placements were explored:</p>
-		<ol>
-			<li>Last row on Category and Product search pages</li>
-			<li>Right rail on Category search page</li>
-		</ol>
+		<p>Display a single <i>Rich Relevance strategy of Customers Also Viewed</i> recommendation widget gave us an opportunity not only display the most successful desktop strategy. For our most highly trafficked Product Detail pages this strategy consistently displayed relevant product results.</p>
 		<div style="clear:both;"></div>
 	</section> <!-- Problem Statement -->
 	<div class="sectionDivider"></div>
 	<section>
 		<div class="colWide">
-			<h3>Placement 1: Last row</h3>
-			<p>Placing the widget slot above pagination at the lost row of results accomplished several goals. Placement gave validity to the results and removed the perception that the widget was simply another ad unit. Also in the natural flow of the visitor, they have scanned down the entire results set and only then would they see alternative options.</p>
-			<p>From a design perspective, the goal was to balance the need for separation and identification against the desire to feel associated with the site and not simply appended.</p>
-		
-			<h5>Chosen direction</h5>
-			<p>After some A/B testing rounds between 3 variants, the metrics supported choosing a simple light gray wrapper. The treatment was enough to set the results apart from the organic flow but not interrupt the overall shopping experience. Engagement was within accepted values based on other placements so the program continued to display the widget.</p>
-			<div class="chart">
-				<span class="chartFullWidth"><img src="../img/articles/20110624/widgetBottom-980.png" alt="WidgetBottom 980"></span>
-			</div>
-			<p>While the treatment and messaging have evolved over time, the placement and spirit of the original design still is evident today. Products and placements come and go, so hopefully this link will work for you; <a target="_blank" href="http://www.amazon.com/s/ref=nb_sb_ss_c_0_5?url=search-alias%3Dgarden&field-keywords=couch&sprefix=couch%2Caps%2C172">ProductAds placement example</a>.</p>
-		
-			<h5>Design exploration</h5>
-			<p>Several design directions were created, vetted and discarded. Shown below are some of those options.</p>
-			<div class="chart">
-				<span class="chartFullWidth"><img src="../img/articles/20110624/widgetIdeas-980.png" alt="WidgetIdeas 980"></span>
-			</div>
+			<h3>Base Handheld PDP Metrics</h3>
+			<iframe width="414" height="255" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/17y3aKWaSyJx5xw6KAF-wgwELUIWJs-Yh8Ovjd5ZDK20/pubchart?oid=1647659104&amp;format=interactive"></iframe>
+			<p>Product detail pages are extremely commerce focused and if the visitor does not like the displayed product their only option is to initiate a search or browse path from the main navigation (or exit). Our hypothesis was that introducing a recommended product widget would allow users to continue browsing with a simple one-click interaction without main navigation engagement. This circular navigation would allow the visitor stay within a similar product area of the catalog.</p>
+			<p>In user testing and site usage metrics we see much less engagement with search and browse elements on handheld sites. This is expected behavior as searching is difficult due to limitations of data entry, while browsing is challenging due to cumbersome navigation via multi level panels caused by catalog taxonomy issues.</p>
 		</div>
 		<div class="colNarrow"></div>
 		<div style="clear:both;"></div>
-	</section> <!-- Option 1 -->
+	</section> <!-- Section 1 -->
 	<div class="sectionDivider"></div>
 	<section>
 		<div class="colWide">
-			<h3>Placement 2: Right rail</h3>
-			<p>For browser windows greater than 1024px we experimented with adding a vertical tower of related results, utilizing dead page space since the results container was fixed at 980px. Site metrics showed that an increasing number of visitors were using wider screens so there was opportunity.</p>
-			<p>A/B testing discovered that while there was no impact on product grid interaction there was a significant placement blindness. CTR was extremely low so this placement was discarded in preference of the last row.</p>
+			<h3>MVP - People Also Viewed & stacked product results</h3>
+			<p>The widget display is a simplistic layout, having <b>4 products stacked vertically</b>. This layout removed any complex sliding or touch gestures, but did have issues of smaller product images and pushing other page elements further outside the viewport. Regardless, for the sake of testing, simplicity of implementation was paramount.</p>
 		</div>
-		<div class="colNarrow">bar</div>
+		<div class="colNarrow"></div>
 		<div style="clear:both;"></div>
-	</section> <!-- Option 2 -->
+	</section> <!-- Section 2 -->
+	<div class="sectionDivider"></div>
+	<section>
+		<div class="colWide">
+			<h3>A/B test with widget added to page</h3>
+			<h5>Widget Engagement</h5>
+			<p>The A/B test ran for 3 weeks and widget CTR was 8.23% compared to ~5% CTR for recommendation widgets on desktop. These numbers were encouraging for overall visitor engagement of the widget.</p>
+		
+			<h5>Main Navigation Usage</h5>
+			<p>In order to understand if widget clicks were additional or if visitors were decreasing clicks on other elements, we tracked broad usage of main navigational elements; Menu, Home & Search.</p>
+			<p>Widget addition reduced main navigation usage for all three elements; Menu (-10.6%), Logo (-17.0%) and Search (-9.8%). This data shows that visitors are choosing to navigate by product opposed to engaging with the site's main navigation. </p>
+		
+			<h5>Bounce Rate</h5>
+			<p>In order to understand if widget clicks were additional or if visitors were decreasing clicks on other elements, we tracked broad usage of main navigational elements; Menu, Home & Search.</p>
+			<div class="chart">
+				<span class="chartFullWidth">
+					<img src="../img/articles/20140630/bounceRate.png" alt="BounceRate">
+				</span>
+			</div>
+			<p>Traffic segmented by mobile visitors saw bounce rates dropped significantly once the experiment was launched.</p>
+		
+		</div>
+		<div class="colNarrow"></div>
+		<div style="clear:both;"></div>
+	</section> <!-- Section 3 -->
 	<div class="sectionDivider"></div>
 	<section>
 		<h3>Conclusions</h3>
-		<p>The addition of this placement and product offering to the ProductAds program greatly increase merchant participation and revenue. Two years after launch, the last row placement is still there (slightly different design) and the right rail has been reintroduced.</p>
+		<p>The recommendation widget greatly altered a visitor's behavior by decreasing navigation clicks and increasing on-click to product.</p>
 		<div style="clear:both;"></div>
 	</section> <!-- Conclusion -->
 </section>
