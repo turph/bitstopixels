@@ -56,127 +56,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/adobe\/beast.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 143049,
-		"inputAbbreviatedPath": "\/img\/adobe\/beast.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/beast.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/clickTracking.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115457,
-		"inputAbbreviatedPath": "\/img\/adobe\/clickTracking.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/clickTracking.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/collection.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 349429,
-		"inputAbbreviatedPath": "\/img\/adobe\/collection.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/collection.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/confetti.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38220,
-		"inputAbbreviatedPath": "\/img\/adobe\/confetti.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/confetti.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/exit.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39619,
-		"inputAbbreviatedPath": "\/img\/adobe\/exit.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/exit.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/hover.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73758,
-		"inputAbbreviatedPath": "\/img\/adobe\/hover.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/hover.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/kpiDash.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 43590,
-		"inputAbbreviatedPath": "\/img\/adobe\/kpiDash.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/kpiDash.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/scroll.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 64286,
-		"inputAbbreviatedPath": "\/img\/adobe\/scroll.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/scroll.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/xsell.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67685,
-		"inputAbbreviatedPath": "\/img\/adobe\/xsell.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/xsell.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/xsell2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60103,
-		"inputAbbreviatedPath": "\/img\/adobe\/xsell2.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/xsell2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/adobe\/xtab.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73386,
-		"inputAbbreviatedPath": "\/img\/adobe\/xtab.png",
-		"outputAbbreviatedPath": "\/img\/adobe\/xtab.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/articles\/20110624\/header-1200.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1057,61 +936,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/homeHero\/rainier1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.32785e+06,
-		"inputAbbreviatedPath": "\/img\/homeHero\/rainier1.jpg",
-		"outputAbbreviatedPath": "\/img\/homeHero\/rainier1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/homeHero\/rainier2.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.13444e+06,
-		"inputAbbreviatedPath": "\/img\/homeHero\/rainier2.JPG",
-		"outputAbbreviatedPath": "\/img\/homeHero\/rainier2.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/homeHero\/rainier3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 247272,
-		"inputAbbreviatedPath": "\/img\/homeHero\/rainier3.jpg",
-		"outputAbbreviatedPath": "\/img\/homeHero\/rainier3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/homeHero\/rainy.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.89056e+06,
-		"inputAbbreviatedPath": "\/img\/homeHero\/rainy.jpg",
-		"outputAbbreviatedPath": "\/img\/homeHero\/rainy.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/homeHero\/tent.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 397943,
-		"inputAbbreviatedPath": "\/img\/homeHero\/tent.JPG",
-		"outputAbbreviatedPath": "\/img\/homeHero\/tent.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/icons\/Logo-2C-14px.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1328,17 +1152,6 @@
 		"initialSize": 103590,
 		"inputAbbreviatedPath": "\/img\/small\/20140710.png",
 		"outputAbbreviatedPath": "\/img\/small\/20140710.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/t-logoL.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1206,
-		"inputAbbreviatedPath": "\/img\/t-logoL.png",
-		"outputAbbreviatedPath": "\/img\/t-logoL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
